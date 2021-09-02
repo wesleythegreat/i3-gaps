@@ -1,0 +1,73 @@
+! made by Wesley Bello
+! special
+*.foreground:   #d8dee8
+*.background:   #2f343f
+*.cursorColor:  #b48ead
+
+! black
+*.color0  : #4b5262
+*.color8  : #434a5a
+
+! red
+*.color1  : #bf616a
+*.color9  : #b3555e
+
+! green
+*.color2  : #a3be8c
+*.color10 : #93ae7c
+
+! yellow
+*.color3  : #ebcb8b
+*.color11 : #dbbb7b
+
+! blue
+*.color4  : #81a1c1
+*.color12 : #7191b1
+
+! magenta
+*.color5  : #b48ead
+*.color13 : #a6809f
+
+! cyan
+*.color6  : #93e5cc
+*.color14 : #7bcdb4
+
+! white
+*.color7  : #e5e9f0
+*.color15 : #d1d5dc
+
+! ------------------------------------------------------------------------------
+! URxvt configs
+! ------------------------------------------------------------------------------
+
+
+URxvt*saveline:         2000
+URxvt*termName:         rxvt-256color
+URxvt*iso14755:         false
+URxvt*depth:            32
+URxvt.underlineColor:   #81a1c1
+URxvt.highlightColor:   #7191b1
+URxvt.throughColor:     #93e5cc
+URxvt*cursorColor:      #b48ead
+URxvt*cursorColor2:     #d8dee8
+URxvt*scrollBar:        false
+URxvt*scrollBar_right:  false
+URxvt*internalBorder:   0
+URxvt*externalBorder:   0
+URxvt.colorIT:      	#a3be8c
+URxvt.colorBD:      	#e5e9f0
+URxvt.colorUL:      	#81a1c1
+URxvt.geometry: 		78x12
+URxvt.internalBorder:	24
+URxvt*letterSpace: 	    0
+URxvt.lineSpace: 		2
+URxvt.clipboard.autocopy: ture
+URxvt.perl-ext-common:  clipboard
+Urxvt.keysm.m-c:	perl:clibpard:copy
+URxvt.keysym.M-v:       perl:clipboard:paste
+URxvt.keysym.M-C-v:     perl:clipboard:paste_escaped
+URxvt.keysym.M-Escape:  perl:keyboard-select:activate
+URxvt.transparent: true
+URxvt.shading: 30
+URxvt.font: xft:roboto-regular:size=10
+URxvt.cursorUnderline:1

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+rofi -modi run,drun,window \
+-lines 12 -padding 18 -width 60 -location 0 -columns 3 \
+-show drun -sidebar-mode \
+-font "Noto Sans 8"
