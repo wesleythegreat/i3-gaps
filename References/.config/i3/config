@@ -35,7 +35,9 @@ bindsym Print exec scrot 'scrot_%Y-%m-%d-%S_$wx$h.png'
 bindsym $mod+Shift+w exec firefox
 bindsym $mod+Shift+f exec thunar
 bindsym $mod+Shift+g exec geany
-
+bindsym $mod+t exec gnome-terminal
+bindsym $mod+e exec file-explorer
+bindsym $mod+g exec zenit-project
 # kill focused window
 bindsym $mod+Escape kill
 bindsym $alt+F4 kill
